@@ -1,7 +1,7 @@
     <div class="col-sm-3">
       <div class="statistic">
         <div class="value">
-          {{ votes }}
+          {{ article.votes }}
         </div>
         <div class="label">
            Points
@@ -9,8 +9,8 @@
       </div>
     </div>
     <div class="col-sm-9">
-      <a class="large link" href="{{ link }}">
-        {{ title }}
+      <a class="large link" href="{{ article.link }}">
+        {{ article.title }}
       </a>
       <ul class="list voters">
         <li class="item">
