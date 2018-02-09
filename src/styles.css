@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+@import './app/vendor/theme/css/bootstrap.css';
+
+form {
+  background-color: #dcdcdc;
+  padding: 20px;
+}
+.statistic {
+  background-color: #dedede;
+  padding: 20px;
+  text-align: center;
+}
+.statistic .value {
+  font-size: 50px;
+}
+.statistic .label  {
+  font-size: 24px;
+}
+.large {
+  font-size: 50px;
+  text-align: left;
+  padding: 15px 20px;
+  text-decoration: none !important;
+}
+.voters {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  list-style: none;
+}
+.voters .item {
+  padding: 5px 20px;
+}
