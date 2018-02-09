@@ -12,6 +12,7 @@
       <a class="large link" href="{{ article.link }}">
         {{ article.title }}
       </a>
+      <div class="meta">({{ article.domain() }})</div>
       <ul class="list voters">
         <li class="item">
           <a href (click)="voteUp()">

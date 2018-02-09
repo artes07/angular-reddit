@@ -4,6 +4,7 @@
 form {
   background-color: #dcdcdc;
   padding: 20px;
+  margin-bottom: 10px;
 }
 .statistic {
   background-color: #dedede;
@@ -30,4 +31,10 @@ form {
 }
 .voters .item {
   padding: 5px 20px;
+}
+app-article {
+  margin-bottom: 10px;
+}
+.meta {
+  padding: 10px 20px;
 }
